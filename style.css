@@ -1,0 +1,894 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Chivo", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1434px;
+}
+
+/* Navigation */
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.wrapper {
+    width: 1524px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.header-nav {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-left: 96.5px;
+    margin-right: 96.5px;
+    float: left; 
+}
+
+.header-nav a {
+    float: left;
+    font-size: 16px;
+    color: #10111A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.dropdown {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-logo {
+    margin-left: 30px;
+}
+
+button {
+    padding: 22px 28px 22px 32px;
+    font-size: 18px;
+    color: #101828;
+    text-decoration: none;
+    border-radius: 50px;
+    background: #F2F4F7;
+    border: none;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.banner-hero.banner {
+    background-color: #FAEDE3;
+}
+
+
+.banner-content {
+    display: flex;
+align-items: stretch;}
+.text-content {
+    margin-top: 156px;
+}
+
+.text-content .text-display {
+    display: block;
+    font-family: "Chivo", sans-serif;
+    font-size: 80px;
+    color: #101828;
+}
+
+.text-content .text-description {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    color: #667085;
+}
+
+.text-content button {
+    padding: 22px 28px 22px 32px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+}
+
+i {
+    margin: 0px 16px;
+}
+
+.text-content button:hover {
+    transform: scale(1.2);
+}
+
+.text-content a {
+    padding: 22px 28px 22px 32px;
+    text-decoration: none;
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+}
+
+.img-content {
+    margin-top: 537px;
+}
+
+.play-button {
+    margin-left: -215px;
+    margin-bottom: 65px;
+}
+
+.img-responsive {
+    margin-top: -700px;
+}
+
+
+/* Section brands */
+.brand-name {
+    display: flex;
+
+    margin-top: 49px;
+    padding: 20px;
+}
+
+.item {
+    margin: 0px 25px;
+}
+
+/* Section Featured */
+.text-title {
+    margin-top: 141px;
+
+    text-align: center;
+}
+
+.text-heading {
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 56px;
+}
+
+.text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    color: #475467;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+
+}
+
+.nav>li {
+    list-style-type: none;
+}
+
+.nav>li>a {
+
+    font-size: 14px;
+    font-family: "Chivo", sans-serif;
+    color: #475467;
+    background: #F2F4F7;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 18px 28px;
+}
+
+.nav>li>a.active {
+    color: #006D77;
+    border: 2px solid #006D77;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.tab-pane {
+    display: flex;
+    align-items: stretch;
+    background: #FFF3EA;
+    margin-top: 58px;
+}
+.tab-pane .tab-content {
+    margin-left: 90px;
+    margin-top: 77px;
+}
+.tab-pane .text-heading {
+    font-family: "Chivo", sans-serif;
+    font-size: 42px;
+    color: #000000;
+    margin-top: 77px;
+}
+
+.tab-pane .text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #475467;
+    margin-top: 30px;
+    margin-right: 152px;
+    margin-bottom: 78px;
+}
+
+.tab-pane a {
+    padding: 18px 28px;
+    
+    text-decoration: none;
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 78px;
+}
+/* Section Serices */
+.text-title {
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+.text-title .text-heading {
+    margin-top: 137px;
+    font-family: "Chivo", sans-serif;
+    font-size: 56px;
+    color: #000000;
+}
+
+.text-title .text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    color: #475467;
+    margin-top: 30px;
+}
+
+.service-box {
+    margin-top: 79px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.service-option .top-img {
+    margin-top: 53px;
+    margin-left: 48px;
+}
+.service-box .service-option {
+    border-radius: 20px;
+    padding: 48px 30px 53px 55px
+}
+.service-option .text-heading {
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: "Chivo", sans-serif;
+}
+
+.service-option .text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+.service-option .bot-img {
+    margin-left: 243px;
+    margin-bottom: -85px;
+}
+
+.service-section a {
+    padding: 18px 28px;
+    text-decoration: none;
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+
+/*  Section Field */
+.field-section {
+    margin-top: 150px;
+}
+
+.field-section {
+    display:flex;
+}
+.field-section .text-field {
+    display: column;
+    margin-left: 95px;
+}
+.tag {
+    padding: 14px 28px;
+    background-color: #FFF3EA;
+    border-radius: 50px;
+    color: #E29578;
+    font-family: "Chivo", sans-serif;
+    font-size: 14px;
+}
+.text-field .text-top {
+    margin-top: 22px;
+}
+.text-field .text-heading {
+    font-size: 56px;
+    font-family: "Chivo", sans-serif;
+    color: #101828;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+
+.text-field .text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    color: #475467;
+    margin-top: 22px;
+}
+
+.line {
+    border: 1px dashed #006D77;
+    margin-top: 51px;
+}
+.text-bot {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .text-bot-content {
+     width: 100%;
+ }
+ .text-bot > div {
+    flex: 50%;
+    margin-bottom: 20px;
+   
+  }
+.text-bot .text-heading {
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+    margin-left: 9px;
+    color: #101828;
+}
+.text-bot .text-heading img{
+ margin-right:  10px;}
+.text-bot .text-body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #475467;
+    margin-top: 17px;
+}
+
+/* section offer */
+.offer-section {
+    background: #FFF3EA;
+    border-radius: 58px;
+    margin-top: 150px;
+    padding: 91px 112px;
+}
+.text-title {
+    text-align: center;
+}
+
+.text-title .text-heading {
+    font-family: "Chivo", sans-serif;
+    font-size: 56px;
+    color: #000000;
+    margin-top: -200px
+}
+
+.text-title .text-body {
+    margin-top: 20px;
+    color: #475467;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+}
+
+.offer-content {
+   
+    margin-top: 91px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: stretch;
+}
+.offer-content .offer-market {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 63px 63px 43px 53px;
+}
+
+.offer-market .text-heading {
+    font-family: "Chivo", sans-serif;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 30px;
+}
+.offer-market .text-body {
+    margin-top: 20px;
+    color: #475467;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+/* Section Customer */
+
+.customer-title {
+    margin-top: 137px;
+}
+
+.customer-title .text-heading {
+    font-family: "Chivo", sans-serif;
+    font-size: 56px;
+    color: #000000;
+}
+
+.customer-title .text-body {
+    color: #475467;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+}
+
+.customer-content {
+    margin-top: 91px;
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    align-items: stretch; 
+
+}
+.customer-content .customer-info {
+padding: 40px 41px 40px 40px;
+}
+
+
+.customer-content .text-heading {
+    margin-top: 22px;
+    color: #101828;
+    font-size: 18px;
+    font-family: "Chivo", sans-serif;
+}
+
+.customer-content .customer-brand {
+ 
+    margin-top: 6px;
+    color: #344054;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+
+.customer-content .text-body {
+    margin-top: 20px;
+    color: #344054;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* section news */
+.section-news {
+
+    margin-top: 137px;
+}
+
+.section-news span {
+    color: #667085;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+
+.news-title {
+    margin-bottom: 87px;
+}
+
+.news-title .text-heading {
+    color: #101828;
+    font-size: 56px;
+    font-family: "Chivo", sans-serif;
+}
+
+.news-title .text-body {
+    color: #475467;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+}
+
+.news-content .text-heading {
+    color: #101828;
+    font-size: 28px;
+    font-family: "Chivo", sans-serif;
+    margin-top: 11px;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 0 30px;
+}
+
+.cover-img {
+    border-radius: 16px;
+}
+
+/* section price */
+.bill-section {
+    margin-top: 150px;
+    background-color: #006D77;
+    margin-bottom: 150px;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #000000;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.bill-section .text-heading {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-family: "Chivo", sans-serif;
+    margin-top: 87px;
+}
+
+.bill-section .bill-check {
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 570px;
+}
+
+.price-block {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    align-items: stretch; 
+    margin-top: 54px;
+
+}
+.price-block .price-level {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 34px 38px 36px 37px;
+    margin-bottom: 111px;
+}
+.price-level .heading-title {
+    color: #101828;
+    font-size: 35px;
+    font-family: "Chivo", sans-serif;
+}
+.price-level .text-heading {
+    color: #101828;
+    font-size: 35px;
+    font-family: "Chivo", sans-serif;
+    margin-top: 0px;
+    margin-left: -160px;
+}
+.price-level .text-body {
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 9px;
+    color: #98A2B3;
+}
+.price-block .line {
+    border: 1px solid #D0D5DD;
+    margin-top: 33px;
+
+}
+
+.price-block button { 
+    height: 60px;
+    color: #101828;
+    border-radius: 6px;
+    border-color: #171B24;
+    margin-left: 50px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.list-featured {
+
+    line-height: 250%;
+    height: 150px
+}
+
+.list-featured li {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+.list-featured li i {
+    color: #006D77;
+}
+
+
+button:hover {
+    background-color: #101828;
+    color: #fff;
+}
+
+/* section newsletter */
+.flex-container {
+    display: flex;
+}
+
+.newsletter-section {
+    background-color: #FAEDE3;
+}
+
+.newsletter-content {
+    margin: 74px 67px 52px 46px;
+}
+.content-group span {
+    font-size: 14px;
+    color: #667085;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.content-group a {
+    color: #006D77;
+}
+
+.content-group .text-heading {
+    color: #10111A;
+    font-size: 42px;
+    font-family: "Chivo", sans-serif;
+    font-weight: bold;
+    margin-top: 13.23px;
+}
+
+.content-group .text-body {
+    font-size: 16px;
+    color: #667085;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 40px;
+}
+
+.form-newsletter {
+
+    margin-top: 29.32px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.input-newsletter {
+    width: 90%;
+    padding: 15px;
+    border: 0px;
+    min-height: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    color: #98A2B3;
+}
+
+/* button .btn-send {
+    background-color: #006D77;
+    color: #FFFFFF;
+} */
+
+.block-chart {
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+}
+
+.img-newsletter {
+    position: absolute;
+    margin-top: 52px;
+}
+
+/* Footer */
+.footer-section {
+
+    margin-top: 150px;
+    margin-bottom: 61px;
+}
+
+.footer-mid {
+    margin-top: 52px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 56px;
+}
+
+.column-right {
+    margin-left: 335px;
+}
+
+.column-right span {
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+}
+
+.column-right a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: "Chivo", sans-serif;
+    font-size: 14px;
+    padding: 18px 20px;
+    border-radius: 5px;
+    background-color: #101828;
+    color: #FFFFFF
+}
+
+.column-right a:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #101828;
+    color: #101828;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-content {
+    float: left;
+    width: 20%;
+}
+
+.text-heading {
+    color: #101828;
+    font-family: "Chivo", sans-serif;
+    font-size: 22px;
+}
+
+.text-body {
+    color: #475467;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+}
+
+.contact-info a {
+    color: #475467;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.menu-footer li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    color: #667085;
+    margin-left: -40px;
+
+}
+
+.line {
+    border: 1px solid#E4E7EC;
+}
+
+.column-end {
+    float: left;
+    width: 50%;
+    margin-top: 46px;
+
+}
+
+.text-body-lead {
+    color: #98A2B3;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.text-body-text {
+    margin-left: 50px !important;
+    text-decoration: none;
+    color: #98A2B3;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.footer-social {
+    margin-left: 534px;
+}
+
+.footer-social a {
+    text-decoration: line-through;
+    color: #FFFFFF;
+    background-color: #006D77;
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+    text-align: center !important;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background-color: rgb(18, 150, 143);
+}
